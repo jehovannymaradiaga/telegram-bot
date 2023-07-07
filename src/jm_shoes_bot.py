@@ -28,7 +28,7 @@ class ShoeStoreBot:
         # Decorador para responder al comando de inicio con el mensaje de bienvenida
         @self.bot.message_handler(commands = ["start"])
         def send_menu(message):
-            welcome = "\nBienvenido a la tienda JM SHOES\n\n"
+            welcome = "\nBienvenido a la tienda Aesthetic Shoes\n\n"
             welcome += "Contamos con los mejores precios del mercado, así que no te pierdas nuestras grandes ofertas\n\n"
             welcome += "Puedes navegar por el siguiente menú: "
             self.bot.send_message(message.chat.id, welcome, reply_markup = self.menu_markup)
