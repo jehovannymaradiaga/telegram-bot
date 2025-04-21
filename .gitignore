@@ -3,3 +3,7 @@ src/config.py
 /env
 .vscode
 /vscode
+
+/src/config.py
+
+/src/_pycache_/
