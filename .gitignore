@@ -1,1 +1,5 @@
 src/config.py
+.env
+/env
+.vscode
+/vscode
